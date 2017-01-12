@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="FlowLayout">
+		<attr name="android:gravity" />
+	</declare-styleable>
+	<declare-styleable name="FlowLayout_Layout">
+		<attr name="android:layout_gravity" />
+	</declare-styleable>
+	  <string-array name="question_one_q">
+        <item >Q:aaaa</item>
+        <item >Q:ssss</item>
+    </string-array>
+	
+	<string-array name="question_one_a" formatted="false">
+        <item >A:aaaaaa</item>
+        <item >A:ssssss</item>
+    </string-array>
+    <!-- 环信聊天 -->
+    <declare-styleable name="ContactItemView">
+        <attr name="contactItemImage" format="reference"/>
+        <attr name="contactItemName" format="string"/>
+    </declare-styleable>
+</resources>

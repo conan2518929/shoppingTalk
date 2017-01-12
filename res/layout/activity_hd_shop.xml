@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+ <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_one" >
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/ziti_size_eleven" />
+        </LinearLayout>
+
+    </RelativeLayout>
+     <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/bg_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+             />
+
+        <com.example.shoppingtalk.widget.CircleImageView
+            android:id="@+id/image_tx"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:id="@+id/shopname"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text=""
+            android:layout_marginLeft="85dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        
+        <RelativeLayout 
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            >
+            <ImageView 
+                android:layout_alignParentRight="true"
+                android:id="@+id/hd_tel"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/hd_tel"
+                />
+            <ImageView 
+                android:layout_toLeftOf="@id/hd_tel"
+                android:layout_marginRight="10dp"
+                android:id="@+id/hd_shop"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/hd_shop"
+                />
+        </RelativeLayout>
+        
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="#bebebe" />
+ 
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/jianpan"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true" >
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="4dp"
+                android:background="#ebebeb" />
+
+            <View
+                android:id="@+id/lin_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="4dp"
+                android:background="#ebebeb" />
+
+            <LinearLayout
+                android:id="@+id/ll_hint"
+                android:layout_width="50dp"
+                android:layout_height="34dp"
+                android:layout_above="@id/lin_bottom"
+                android:layout_below="@id/line"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="隐藏"
+                    android:textColor="@color/pl_text"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/downhint" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="34dp"
+                android:layout_above="@id/lin_bottom"
+                android:layout_below="@id/line"
+                android:layout_toRightOf="@id/ll_hint"
+                android:background="#ebebeb" />
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="50dp"
+                android:layout_height="34dp"
+                android:layout_above="@id/lin_bottom"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/line"
+                android:layout_marginRight="5dp"
+                android:background="@color/btn_pl_send"
+                android:gravity="center"
+                android:text="发送"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <com.example.shoppingtalk.widget.ContainsEmojiEditText
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_above="@id/lin_bottom"
+                android:layout_below="@id/line"
+                android:layout_toLeftOf="@id/send"
+                android:layout_toRightOf="@id/ll_hint"
+                android:background="@null"
+                android:hint="请输入内容..."
+                android:maxLength="100"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <com.example.shoppingtalk.widget.PullToRefreshListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/jianpan"
+            android:cacheColorHint="#00000000"
+            android:listSelector="#00000000" 
+            android:scrollbars="none"
+            >
+        </com.example.shoppingtalk.widget.PullToRefreshListView>
+    </RelativeLayout>
+    
+ 
+</LinearLayout>

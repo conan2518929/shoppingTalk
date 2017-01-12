@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color">#ff434343</color>
+    <color name="color_bg_banner">#10407e</color>
+    
+    <color name="blue">#0747e4</color>
+    <color name="blue_one">#0640cd</color>
+    <color name="blue_flowlayout">#4274ef</color>
+    <color name="blue_title_search">#5f9bfd</color>
+    <color name="blue_title_search_bg">#9ec1fb</color>
+    <color name="blue_right_letter">#609bff</color>
+    <color name="bg_agray">#49dddddd</color>
+    
+    <color name="black">#000000</color>
+    <color name="black_one">#504e4f</color>
+    <color name="black_two">#666666</color>
+    <color name="black_three">#e6e6e6</color>
+    <color name="black_four">#797979</color>
+    <color name="black_five">#333333</color>
+    <color name="gray">#818181</color>
+    <color name="gray_one">#8d8d8d</color>
+    <color name="gray_two">#878787</color>
+    <color name="gray_three">#a5a5a5</color>
+    <color name="gray_four">#cccccc</color>
+    <color name="gray_five">#e5e5e5</color>
+    <color name="gray_six">#ededed</color>
+    <color name="gray_seven">#d9d9d9</color>
+    <color name="gray_eight">#bfbfbf</color>
+    <color name="gray_nine">#7a7b7d</color>
+    <color name="gray_ten">#999999</color>
+    <color name="gray_eleven">#5d6276</color>
+    <color name="gray_twelve">#dadada</color>
+    <color name="gray_thirteen">#b2b2b2</color>
+    
+    <color name="line">#cccccc</color>
+    <color name="white">#ffffff</color>
+    <color name="white_two">#f2f2f2</color>
+    <color name="white_one">#77ffffff</color>
+    <color name="home_list_item_title">#5d6276</color>
+    <color name="home_list_item_text">#909090</color>
+    <color name="home_list_item_blue">#30a7eb</color>
+    <color name="transparent_black">#c0000000</color>
+    <color name="transparent_blue">#990748e4</color>
+    <color name="grey_white">#F7F7F7</color>
+    <color name="red">#ff3b2f</color>
+    <color name="color_grey_888888">#888888</color>
+    <color name="color_network_bar_bg_ee4b62">#ee4b62</color>
+    <color name="action_bar_tittle_color_555555">#555555</color>
+    <color name="grey_white_has_alpha">#66FAFAFA</color>
+    
+     <!-- 上拉刷新 下拉 加载背景色 -->
+    <color name="color_bg_layout">#EDEDED</color>
+    <color name="xiala_background">#ffffff</color>
+    
+    
+    <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color>
+    <!-- 暗灰色 -->
+    <color name="dimgrey">#E22F2F</color>
+    <!-- 环信聊天 -->
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#00acff</color>
+    <color name="btn_login_pressed">#46678d</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#ffffff</color>
+    <color name="btn_register_pressed">#00acff</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#d4d4d4</color>
+    <color name="top_bar_normal_bg">#00acff</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="btn_answer_pressed">#4ebcd3</color>
+    <color name="btn_answer_normal">#2dafa3</color>
+	<color name="list_item_secondary_color">#888888</color>
+	<color name="list_item_primary_color">#000</color>
+	<color name="holo_blue_bright">#ff00ddff</color>
+	<color name="holo_green_light">#ff99cc00</color>
+	<color name="holo_orange_light">#ffffbb33</color>
+	<color name="holo_red_light">#ffff4444</color>
+	
+    	<!-- 对话框 -->
+	<color name="dialogColor">#f0ffffff</color>
+	<color name="Gray">#e6e6e6</color>
+	 <color name="fenxiang_color_zan">#017aff</color>
+	
+	<!-- 评论 -->
+	 
+	 <color name="btn_pl_send">#4bc443</color>
+	 <color name="pl_text">#7b7b79</color>
+</resources>
